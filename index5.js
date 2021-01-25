@@ -1,3 +1,5 @@
+//https://youtu.be/S4BN1tZmmWw
+//해당 강의를 보고 내가 작성한 코드
 const title = document.querySelector("#title");
 
 const title_CLASS = "clicked";
