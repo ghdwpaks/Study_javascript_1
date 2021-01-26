@@ -1,21 +1,23 @@
-body {
-    background-color: wheat;
-}
-
-h1 {
-    color: #34495e;
-}
-
-.btn{
+.btn {
     cursor: pointer;
 }
 
-.clicked {
-    color : aquamarine; 
-    transition: color .5s ease-in-out;
+body {
+    color: #34495e;
+    transition: color 0.5s ease-in-out;
 }
 
-.unclicked {
-    color : blueviolet; 
-    transition: color .5s ease-in-out;
+.clicked {
+    color: #7f8c8d;
+}
+
+
+.form,
+.greetings {
+    display: none;
+
+}
+
+.showing {
+    display: block;
 }
